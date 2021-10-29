@@ -1,0 +1,26 @@
+@media (max-width:425px) {
+
+    body {
+    font-size: xx-small;
+    padding: 1rem;
+    }
+
+    header {
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        margin-top: 2rem;
+    }
+    main img {
+     width: 100px;
+     height: 100px;
+    }
+
+    main a {
+        margin-top: 4rem;
+        
+        
+    }
+    
+}
