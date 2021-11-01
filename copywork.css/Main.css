@@ -1,0 +1,126 @@
+main {
+    justify-content: space-between;
+    margin-top: 15rem;
+    color: black;
+}
+
+
+
+aside {
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+}
+
+#summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: rgb(49, 49, 49);
+}
+
+
+#summary h1 {
+    text-align: center;
+    font-size: x-large;
+}
+
+#rating {
+    flex-direction: row;
+}
+
+
+.checked {
+    color: orange;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: 10rem;
+    
+}
+
+#time-taken {
+    display: flex;
+    margin-top: 0;
+}
+
+#need-space {
+    margin-left: 1rem;
+}
+
+hr {
+   border: 2 px solid rgb(223, 208, 144);
+   padding: 0;
+}
+
+#servings {
+    background-color: rgb(223, 208, 144);
+    color: darkslategrey;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    
+}
+    
+#ingredients, li {
+    list-style: none;
+    margin: 20px 0 ;
+    
+}
+
+#rate-the-recipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+
+#stars:hover {
+    color: orange
+    
+}
+
+
+#review {
+    margin-top: 6rem;
+    display: flex;
+    font-size: larger; 
+    justify-content: flex-start;
+    text-align: flex-start;
+    flex-direction: column;
+
+}
+
+#review label {
+  justify-content: flex-start;
+  width: 20rem; height: 2rem;
+  align-items: flex-start;
+
+  
+}
+
+#review input {
+  justify-content: center;
+  width: 80-rem; height: 4rem;
+  align-items: center;
+  border-style:solid;
+  border-color: rgb(223, 208, 144);
+}
+
+#feedback h3 {
+    background-color: rgb(223, 208, 144);
+    padding: 1.5rem;
+}
+
+
+#feedback {
+    margin-top: 3rem;
+}

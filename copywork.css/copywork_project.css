@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    display: flex;
+    font-family: Georgia, helvetica, sans-serif;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    
+}
+
+header a:hover {
+ color: red;
+}
+
+#logo {
+    color: red;
+}
+
+#left-nav {
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: 1rem;
+    padding-left: 1rem;
+    
+     
+}
+
+
+
+#right-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+
+    

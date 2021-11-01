@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    display: flex;
+    text-align: start;
+
+}
+.news-articles {
+    display: flex;
+    margin-bottom: 0.5rem;
+    
+}
+
+h3 {
+ margin-left: 1rem;
+ margin-top: 4rem;
+}
+
+main a {
+    color: red;
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 7rem;
+}
